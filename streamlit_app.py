@@ -55,4 +55,4 @@ if page == '🏡 Home':
             ''')
 with col2:
     # Placeholder for image
-    st.image('https://github.com/NikCoolMint/About-Me-Project-1/blob/main/ZombieManSpace.jpg', use_column_width=True)
+    st.image('', use_column_width=True)
