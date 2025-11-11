@@ -55,4 +55,4 @@ if page == '🏡 Home':
             ''')
 with col2:
     # Placeholder for image
-    st.image('', use_column_width=True)
+    st.image('ZombieManSpace.jpg', use_column_width=True)
