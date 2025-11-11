@@ -56,3 +56,27 @@ if page == '🏡 Home':
 with col2:
     # Placeholder for image
     st.image('ZombieManSpace.jpg', use_column_width=True)
+
+# About Page
+elif page == '🤠 About':
+  st.title('About Me')
+
+  # Timeline of my Professional Journey
+  st.subheader('My Journey 🗺️')
+
+  with st.expander('2025 - Present: Medgar Evers College'):
+    st.write('''
+                - Major: Stacking Bricks 🧱
+                - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
+                - Activities: Ball Team, Track Team, Game Team, Music Team
+            ''')
+
+  with st.expander('2023 - 2025: NYC Museum School'):
+    st.write('''
+                - Graduated with stacking bricks
+                - AP Computer Brick Stacker A (Score: 5)
+                - Founded Get Rich Quick Club
+            ''')
+
+  st.subheader('Interests & Hobbies 🏀')
+  interests = ['Web Development', 'AI/Machine Learning', 'Game Development', 'Basketball', 'Travel', 'Hockey']
