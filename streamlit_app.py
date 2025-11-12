@@ -82,13 +82,15 @@ with st.expander('2025 - Present: Medgar Evers College'):
   interests = ['Web Development', 'AI/Machine Learning', 'Game Development', 'Basketball', 'Travel', 'Hockey']
 
   # Display the interests in columns
-  cols = st.columns([1,2])
-  for i, interest in enumerate(interests):
-   with cols[i % 3]:
-        st.info(f'💎 {interests}')
-if page == '📂 Projects':
-  st.title('My Projects')
-st.write('Here are some projects ive worked on:')
+  cols = st.columns(3) 
+for i, interest in enumerate(interests):
+    with cols[i % 3]:
+        st.info(f'💎 {interest}')
+
+# Projects Page
+if page == '📁 Projects':
+    st.title('My Projects')
+    st.write('Here are some projects I’ve worked on:')
 
 # Project 1
 with st.container():
