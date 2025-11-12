@@ -115,7 +115,7 @@ with st.container():
     st.write('Interactive web app for calculating and visualizing grades')
     st.caption('**Technologies:** Python, Pandas, Plotly')
 if page == '🔧 Skills':
-  st.title('Technical Skills')
+  st.title('Life Skills')
 
   # Skills with progress bars
   st.subheader('Skill Progression')
