@@ -118,13 +118,13 @@ if page == '🔧 Skills':
   st.title('Technical Skills')
 
   # Skills with progress bars
-  st.subheader('Programming Languages')
+  st.subheader('Skill Progression')
 
   skills_data = {
-    'Python' : 85,
-    'HTML/CSS' : 70,
-    'JavaScript' : 60,
-    'SQL' : 50,
+    'Skate boarding' : 85,
+    'Swimming' : 70,
+    'Reading' : 60,
+    'Driving' : 50,
     'Technical Writing' : 40
   }
 
