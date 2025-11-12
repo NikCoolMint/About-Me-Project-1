@@ -58,7 +58,7 @@ with col2:
     st.image('ZombieManSpace.jpg', use_column_width=True)
 
 # About Page
-elif page == '🚶🏾‍♂️ About':
+  if page == '🚶🏾‍♂️ About':
     st.title('About Me')
 
   # Timeline of my Professional Journey
