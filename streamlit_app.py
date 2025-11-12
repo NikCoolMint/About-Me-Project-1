@@ -59,7 +59,7 @@ with col2:
 
 # About Page
 
-elif page == 'About':
+elif page == '🚶🏾‍♂️ About':
   st.title('About Me')
 
   # Timeline of my Professional Journey
