@@ -53,9 +53,9 @@ if page == '🏡 Home':
             
                 💭 **Fun Fact:** I can swim!
             ''')
-        with col2:
+with col2:
     # Placeholder for image
-            st.image('ZombieManSpace.jpg', use_column_width=True)
+    st.image('ZombieManSpace.jpg', use_column_width=True)
 
 # About Page
 elif page == '🚶🏾‍♂️ About':
