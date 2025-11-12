@@ -84,7 +84,7 @@ with st.expander('2025 - Present: Medgar Evers College'):
   # Display the interests in columns
   cols = st.columns([1,2])
   for i, interest in enumerate(interests):
-  with cols[i % 3]:
+   with cols[i % 3]:
         st.info(f'💎 {interests}')
 if page == '📂 Projects':
   st.title('My Projects')
