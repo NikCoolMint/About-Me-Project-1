@@ -86,6 +86,6 @@ with st.expander('2025 - Present: Medgar Evers College'):
   for i, interest in enumerate(interests):
     with cols[i % 3]:
       st.info(f'💎 {intersts}')
-elif page == '📂 Projects':
+if page == '📂 Projects':
   st.title('My Projects')
 st.write('Here are some projects ive worked on:')
