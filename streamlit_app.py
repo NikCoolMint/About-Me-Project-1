@@ -80,3 +80,12 @@ with st.expander('2025 - Present: Medgar Evers College'):
 
   st.subheader('Interests & Hobbies 🏀')
   interests = ['Web Development', 'AI/Machine Learning', 'Game Development', 'Basketball', 'Travel', 'Hockey']
+
+  # Display the interests in columns
+  cols = st.colums([1,2])
+  for i, interest in enumerate(interests):
+    with cols[i % 3]:
+      st.info(f'💎 {intersts}')
+elif page == '📂 Projects':
+  st.title('My Projects')
+st.write('Here are some projects ive worked on:')
