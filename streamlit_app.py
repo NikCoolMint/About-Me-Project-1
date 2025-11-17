@@ -97,9 +97,9 @@ if page == '📁 Projects':
         with col1:
             st.image('https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/05/arc-raiders-fighting-a-bastion-a-large-four-legged-robot.jpg?w=1600&h=900&fit=crop', use_column_width=True)
         with col2:
-            st.subheader('🚌 E-Commerce Price Tracker')
-            st.write('Python web scraper that monitors Amazon prices and sends alerts')
-            st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+            st.subheader('🖥️ Pc-Building')
+            st.write('Building a custom PC from scratch')
+            st.caption('**Technologies:** Professional Tools, Electronics')
 
     # Project 2
     with st.container():
