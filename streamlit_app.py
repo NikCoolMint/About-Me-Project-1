@@ -178,11 +178,11 @@ if page == '📩 Contact':
     with col1:
         st.subheader('Connect with me')
         st.markdown('''
-            📧 **Email:** [your.email@example.com](mailto:your.email@example.com)
+            📧 **Email:** [demnuts911@gmai.com](mailto:demnuts911@gmail.com)
             
             🔗 **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com)
             
-            💻 **GitHub:** [Your GitHub Profile](https://github.com)
+            💻 **GitHub:** [Your GitHub Profile](https://github.com/NikCoolMint)
             
             🐦 **Twitter:** [Your Twitter Handle](https://twitter.com)
         ''')
