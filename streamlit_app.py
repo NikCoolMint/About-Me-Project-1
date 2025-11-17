@@ -107,9 +107,9 @@ if page == '📁 Projects':
         with col1:
             st.image('https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/11/arc-raiders-solo-experience-header-2.jpg?w=1600&h=900&fit=crop', use_column_width=True)
         with col2:
-            st.subheader('👨🏽‍🎓 Student Grade Calculator')
-            st.write('Interactive web app for calculating and visualizing grades')
-            st.caption('**Technologies:** Python, Pandas, Plotly')
+            st.subheader('🌴 Mexico Trips, and Hotels')
+            st.write('Planning and documenting trips to Mexico')
+            st.caption('**Vacations:** Travel Planning, Photography')
 
 # Skills Page
 if page == '🔧 Skills':
