@@ -55,7 +55,7 @@ if page == '🏡 Home':
             ''')
   with col2:
     # Placeholder for image
-    st.image('Spongebob.PNG', use_column_width=True)
+    st.image('https://github.com/NikCoolMint/About-Me-Project-1/blob/main/Spongebob.PNG', use_column_width=True)
 
 # About Page
 if page == '🚶🏾‍♂️ About':
