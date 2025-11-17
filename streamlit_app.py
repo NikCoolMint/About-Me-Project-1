@@ -90,7 +90,7 @@ if page == '🚶🏾‍♂️ About':
 # Projects Page
 if page == '📁 Projects':
     st.title('My Projects')
-    st.write('Here are some projects I've worked on:')
+    st.write('Here are some projects Ive worked on:')
 
     # Project 1
     with st.container():
