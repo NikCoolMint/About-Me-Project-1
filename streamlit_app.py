@@ -55,103 +55,135 @@ if page == '🏡 Home':
             ''')
   with col2:
     # Placeholder for image
-       st.image('Spongebob.PNG', use_column_width=True)
+    st.image('Spongebob.PNG', use_column_width=True)
 
 # About Page
 if page == '🚶🏾‍♂️ About':
     st.title('About Me')
 
-  # Timeline of my Professional Journey
+    # Timeline of my Professional Journey
     st.subheader('My Journey 🗺️')
 
-with st.expander('2025 - Present: Medgar Evers College'):
-  st.write('''
-              - Major: Stacking Bricks 🧱
-              - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
-              - Activities: Ball Team, Track Team, Game Team, Music Team
-          ''')
+    with st.expander('2025 - Present: Medgar Evers College'):
+        st.write('''
+            - Major: Stacking Bricks 🧱
+            - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
+            - Activities: Ball Team, Track Team, Game Team, Music Team
+        ''')
 
-  with st.expander('2023 - 2025: NYC Museum School'):
-    st.write('''
-                - Graduated with stacking bricks
-                - AP Computer Brick Stacker A (Score: 5)
-                - Founded Get Rich Quick Club
-            ''')
+    with st.expander('2023 - 2025: NYC Museum School'):
+        st.write('''
+            - Graduated with stacking bricks
+            - AP Computer Brick Stacker A (Score: 5)
+            - Founded Get Rich Quick Club
+        ''')
 
-  st.subheader('Interests & Hobbies 🏀')
-  interests = ['Web Development', 'AI/Machine Learning', 'Game Development', 'Basketball', 'Travel', 'Hockey']
+    st.subheader('Interests & Hobbies 🏀')
+    interests = ['Web Development', 'AI/Machine Learning', 'Game Development', 'Basketball', 'Travel', 'Hockey']
 
-  # Display the interests in columns
-  cols = st.columns(3) 
-for i, interest in enumerate(interests):
-    with cols[i % 3]:
-        st.info(f'💎 {interest}')
+    # Display the interests in columns
+    cols = st.columns(3)
+    for i, interest in enumerate(interests):
+        with cols[i % 3]:
+            st.info(f'💎 {interest}')
 
 # Projects Page
 if page == '📁 Projects':
     st.title('My Projects')
-    st.write('Here are some projects I’ve worked on:')
+    st.write('Here are some projects I've worked on:')
 
-# Project 1
-with st.container():
-  col1, col2 = st.columns([1, 2])
+    # Project 1
+    with st.container():
+        col1, col2 = st.columns([1, 2])
+        with col1:
+            st.image('https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/05/arc-raiders-fighting-a-bastion-a-large-four-legged-robot.jpg?w=1600&h=900&fit=crop', use_column_width=True)
+        with col2:
+            st.subheader('🚌 E-Commerce Price Tracker')
+            st.write('Python web scraper that monitors Amazon prices and sends alerts')
+            st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
 
-with col1:
-    st.image('https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/05/arc-raiders-fighting-a-bastion-a-large-four-legged-robot.jpg?w=1600&h=900&fit=crop', use_column_width = True)
+    # Project 2
+    with st.container():
+        col1, col2 = st.columns([1, 2])
+        with col1:
+            st.image('https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/11/arc-raiders-solo-experience-header-2.jpg?w=1600&h=900&fit=crop', use_column_width=True)
+        with col2:
+            st.subheader('👨🏽‍🎓 Student Grade Calculator')
+            st.write('Interactive web app for calculating and visualizing grades')
+            st.caption('**Technologies:** Python, Pandas, Plotly')
 
-with col2:
-    st.subheader('🚌 E-Commerce Price Tracker')
-    st.write('Python web scraper that monitors Amazon prices and sends alerts')
-    st.caption('**Technologies:** Python, BeutifulSoup, Streamlit')
-  
-
-# Project 2
-with st.container():
-  col1, col2 = st.columns([1,2])
-  with col1:
-    st.image('https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/11/arc-raiders-solo-experience-header-2.jpg?w=1600&h=900&fit=crop', use_column_width = True)
-  with col2:
-    st.subheader('👨🏽‍🎓 Student Grade Calculator')
-    st.write('Interactive web app for calculating and visualizing grades')
-    st.caption('**Technologies:** Python, Pandas, Plotly')
+# Skills Page
 if page == '🔧 Skills':
-  st.title('Life Skills')
+    st.title('Life Skills')
 
-  # Skills with progress bars
-  st.subheader('Skill Progression')
+    # Skills with progress bars
+    st.subheader('Skill Progression')
 
-  skills_data = {
-    'Skate boarding' : 85,
-    'Swimming' : 70,
-    'Reading' : 60,
-    'Driving' : 50,
-    'Technical Writing' : 40
-  }
+    skills_data = {
+        'Skate boarding': 85,
+        'Swimming': 70,
+        'Reading': 60,
+        'Driving': 50,
+        'Technical Writing': 40
+    }
 
-  for skill, level in skills_data.items():
-    col1, col2 = st.columns([1,3])
+    for skill, level in skills_data.items():
+        col1, col2 = st.columns([1, 3])
+        with col1:
+            st.write(skill)
+        with col2:
+            st.progress(level/100)
+
+    st.subheader('Tools & Technologies')
+
+    col1, col2, col3 = st.columns(3)
     with col1:
-      st.write(skill)
+        st.success('Excel')
+        st.info('Word')
+        st.warning('Access')
+
     with col2:
-      st.progress(level/100)
+        st.success('PowerPoint')
+        st.info('Google Docs')
+        st.warning('ChatGPT/AI Tools')
 
-  st.subheader('Tools & Technologies')
+    with col3:
+        st.success('Presentations')
+        st.info('Writing')
+        st.warning('Social Media')
 
-  col1, col2, col3 = st.columns(3)
-  with col1:
-    st.success('Excel')
-    st.info('Word')
-    st.warning('Access')
+# Resume Page
+if page == '📝 Resume':
+    st.title('Resume')
+    st.write('My professional resume and experience:')
+    st.info('Resume section coming soon! Download or view my full resume here.')
 
-  with col2:
-    st.success('PowerPoint')
-    st.info('Google Docs')
-    st.warning('ChatGPT/AI Tools')
-    
-  with col3:
-    st.success('Presentations')
-    st.info('Writing')
-    st.warning('Social Media')
-    
+# Contact Page
+if page == '📩 Contact':
+    st.title('Contact Me')
+    st.write('Get in touch with me!')
 
-    
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader('Connect with me')
+        st.markdown('''
+            📧 **Email:** [your.email@example.com](mailto:your.email@example.com)
+            
+            🔗 **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com)
+            
+            💻 **GitHub:** [Your GitHub Profile](https://github.com)
+            
+            🐦 **Twitter:** [Your Twitter Handle](https://twitter.com)
+        ''')
+
+    with col2:
+        st.subheader('Send me a message')
+        with st.form('contact_form'):
+            name = st.text_input('Your Name')
+            email = st.text_input('Your Email')
+            message = st.text_area('Your Message')
+            submitted = st.form_submit_button('Send Message')
+            if submitted:
+                st.success('Thank you for your message! I will get back to you soon.')
+
+
