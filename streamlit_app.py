@@ -189,3 +189,10 @@ if page == '📩 Contact':
     # read PDF from my github 
     with open('my_resume.pdf', 'rb') as pdf_file:
       PDFbyte = pdf_file.read()
+    
+    st.download_button(
+      label ='🔼 Download My Resume here (PDF)',
+      data = PDFbyte,
+      file_name = 'Nik-Sil-Resume.pdf',
+      mime ='application/pdf'
+    )
