@@ -55,7 +55,7 @@ if page == '🏡 Home':
             ''')
   with col2:
     # Placeholder for image
-    st.image('https://pbs.twimg.com/media/F1NDFmdXgAUHtoR.jpg', use_column_width=True)
+    st.image('https://pbs.twimg.com/media/F1NDFmdXgAUHtoR.jpg', use_container_width=True)
 
 # About Page
 if page == '🚶🏾‍♂️ About':
