@@ -158,6 +158,17 @@ if page == '📝 Resume':
     st.write('My professional resume and experience:')
     st.info('Resume section coming soon! Download or view my full resume here.')
 
+ # read PDF from my github 
+    with open('my_resume.pdf', 'rb') as pdf_file:
+      PDFbyte = pdf_file.read()
+    
+    st.download_button(
+      label ='🔼 Download My Resume here (PDF)',
+      data = PDFbyte,
+      file_name = 'my_resume1.pdf',
+      mime ='application/pdf'
+    )
+
 # Contact Page
 if page == '📩 Contact':
     st.title('Contact Me')
@@ -185,14 +196,3 @@ if page == '📩 Contact':
             submitted = st.form_submit_button('Send Message')
             if submitted:
                 st.success('Thank you for your message! I will get back to you soon.')
-
-    # read PDF from my github 
-    with open('my_resume.pdf', 'rb') as pdf_file:
-      PDFbyte = pdf_file.read()
-    
-    st.download_button(
-      label ='🔼 Download My Resume here (PDF)',
-      data = PDFbyte,
-      file_name = 'my_resume1.pdf',
-      mime ='application/pdf'
-    )
