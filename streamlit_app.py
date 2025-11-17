@@ -110,6 +110,16 @@ if page == '📁 Projects':
             st.subheader('🌴 Mexico Trips, and Hotels')
             st.write('Planning and documenting trips to Mexico')
             st.caption('**Vacations:** Travel Planning, Photography')
+    
+    # Project 3
+    with st.container():
+        col1, col2 = st.columns([1, 2])
+        with col1:
+            st.image('', use_column_width=True)
+        with col2:
+            st.subheader('⌚ Watch Collection')
+            st.write('Showcasing my collection of stylish watches')
+            st.caption('**Collection:** Fashion, Timepieces')
 
 # Skills Page
 if page == '🔧 Skills':
