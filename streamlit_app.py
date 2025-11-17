@@ -159,7 +159,7 @@ if page == '📝 Resume':
     st.info('Resume section coming soon! Download or view my full resume here.')
 
  # read PDF from my github 
-    with open('my_resume.pdf', 'rb') as pdf_file:
+    with open('my_resume1.pdf', 'rb') as pdf_file:
       PDFbyte = pdf_file.read()
     
     st.download_button(
