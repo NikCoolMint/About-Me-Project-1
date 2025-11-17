@@ -193,6 +193,6 @@ if page == '📩 Contact':
     st.download_button(
       label ='🔼 Download My Resume here (PDF)',
       data = PDFbyte,
-      file_name = 'Nik-Sil-Resume.pdf',
+      file_name = 'my_resume1.pdf',
       mime ='application/pdf'
     )
