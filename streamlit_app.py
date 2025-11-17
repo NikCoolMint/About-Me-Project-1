@@ -186,4 +186,6 @@ if page == '📩 Contact':
             if submitted:
                 st.success('Thank you for your message! I will get back to you soon.')
 
-
+    # read PDF from my github 
+    with open('my_resume.pdf', 'rb') as pdf_file:
+      PDFbyte = pdf_file.read()
