@@ -196,3 +196,25 @@ if page == '📩 Contact':
             submitted = st.form_submit_button('Send Message')
             if submitted:
                 st.success('Thank you for your message! I will get back to you soon.')
+
+        # Fun interactive element
+        st.subheader('Current Status')
+
+        status = st.selectbox(
+            "I'm currently:",
+            [
+                'Available for work'
+                'Open fr collabortations',
+                'Just Chilling',
+                'Learning something new'
+            ]
+        )
+    
+
+        st.info(f'status: {status}')
+
+        # Footer
+        st.write('---')
+        st.markdown(
+            f'<center>Made with ❤️ by Nik Sil | © {datetime.now().year} Nik Sil </center>', unsafe_allow_html = True
+        )
