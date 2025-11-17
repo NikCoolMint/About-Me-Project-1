@@ -105,7 +105,7 @@ if page == '📁 Projects':
     with st.container():
         col1, col2 = st.columns([1, 2])
         with col1:
-            st.image('https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/11/arc-raiders-solo-experience-header-2.jpg?w=1600&h=900&fit=crop', use_column_width=True)
+            st.image('https://cdn.sanity.io/images/atvntylo/production/0cd77247c5feb149ad710e311c6ed13c3c11a14f-2500x1406.webp', use_column_width=True)
         with col2:
             st.subheader('🌴 Mexico Trips, and Hotels')
             st.write('Planning and documenting trips to Mexico')
