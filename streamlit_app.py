@@ -44,8 +44,7 @@ if page == '🏡 Home':
   with col1:
     st.subheader('Welcome to my digital space!👋')
     st.write('''
-                I am a Computer Information Systems student passionate about web development and emerging technologies. Currently learning
-                HTML, CSS, JavaScript, and Python to build innovative solutions.
+                I am a aspiring future genius and entrepreneur currentlty studying at Medgar Evers College.
             
                 🎯 **Current Focus:** Building This Damn Website
             
@@ -62,7 +61,7 @@ if page == '🚶🏾‍♂️ About':
     st.title('About Me')
 
     # Timeline of my Professional Journey
-    st.subheader('My Journey 🗺️')
+    st.subheader('My Professional Journey 🗺️')
 
     with st.expander('2025 - Present: Medgar Evers College'):
         st.write('''
@@ -85,7 +84,7 @@ if page == '🚶🏾‍♂️ About':
     cols = st.columns(3)
     for i, interest in enumerate(interests):
         with cols[i % 3]:
-            st.info(f'💎 {interest}')
+            st.info(f'🏆 {interest}')
 
 # Projects Page
 if page == '📁 Projects':
@@ -218,3 +217,4 @@ if page == '📩 Contact':
         st.markdown(
             f'<center>Made with ❤️ by Nik Sil | © {datetime.now().year} Nik Sil </center>', unsafe_allow_html = True
         )
+
