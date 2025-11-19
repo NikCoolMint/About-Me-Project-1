@@ -10,7 +10,9 @@ st.set_page_config(
 )
 
 # Adding New Font Test
-
+st.markdown(
+    "p style='font-family:Courier; font-size: 20px;'>This is Nunito text</p>", unsafe_allow_html=True
+)
 
 # Custom CSS (optional - for styling)
 st.markdown('''
