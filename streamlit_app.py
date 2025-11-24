@@ -32,7 +32,7 @@ st.markdown(page_bg, unsafe_allow_html=True)
 sidebar_bg = """
 <style>
 [data-testid="stSidebar"] {
-    background-color: #222222; /* 999966 */
+    background-color: #222222; /* #999966 */
 }
 </style>
 """
