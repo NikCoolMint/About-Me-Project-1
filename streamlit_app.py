@@ -21,7 +21,7 @@ st.markdown('''
 page_bg = """
 <style>
 [data-testid="stAppViewContainer"] {
-    background-color: #1a1a1a; /* your color */
+    background-color: #1a1a1a; /* #f0f0f0 */
 }
 </style>
 """
