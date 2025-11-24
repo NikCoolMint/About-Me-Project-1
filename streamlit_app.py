@@ -28,6 +28,17 @@ page_bg = """
 
 st.markdown(page_bg, unsafe_allow_html=True)
 
+# Test For Sidebar Color
+sidebar_bg = """
+<style>
+[data-testid="stAppViewContainer"] {
+    background-color: #999966; /* your color */
+}
+</style>
+"""
+
+st.markdown(page_bg, unsafe_allow_html=True)
+
 # Sidebar
 st.sidebar.title('📍Navigation')
 page = st.sidebar.radio('Go to',
