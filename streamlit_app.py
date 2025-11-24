@@ -96,7 +96,7 @@ if page == '📁 Projects':
     with st.container():
         col1, col2 = st.columns([1, 2])
         with col1:
-            st.image('https://cdn.mos.cms.futurecdn.net/kj3ZbACtQnnhFTB6nCMFUC-2000-80.jpg', use_column_width=True)
+            st.image('https://cdn.mos.cms.futurecdn.net/kj3ZbACtQnnhFTB6nCMFUC-2000-80.jpg', use_container_width=True)
         with col2:
             st.subheader('🖥️ Pc-Building')
             st.write('Building a custom PC from scratch')
@@ -106,7 +106,7 @@ if page == '📁 Projects':
     with st.container():
         col1, col2 = st.columns([1, 2])
         with col1:
-            st.image('https://cdn.sanity.io/images/atvntylo/production/0cd77247c5feb149ad710e311c6ed13c3c11a14f-2500x1406.webp', use_column_width=True)
+            st.image('https://cdn.sanity.io/images/atvntylo/production/0cd77247c5feb149ad710e311c6ed13c3c11a14f-2500x1406.webp', use_container_width=True)
         with col2:
             st.subheader('🌴 Mexico Trips, and Hotels')
             st.write('Planning and documenting trips to Mexico')
@@ -116,7 +116,7 @@ if page == '📁 Projects':
     with st.container():
         col1, col2 = st.columns([1, 2])
         with col1:
-            st.image('https://www.luxurybazaar.com/grey-market/wp-content/uploads/2025/06/TOP_TEN_WATCHES_61542.jpg', use_column_width=True)
+            st.image('https://www.luxurybazaar.com/grey-market/wp-content/uploads/2025/06/TOP_TEN_WATCHES_61542.jpg', use_container_width=True)
         with col2:
             st.subheader('⌚ Watch Collection')
             st.write('Showcasing my collection of stylish watches')
