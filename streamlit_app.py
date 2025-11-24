@@ -9,10 +9,6 @@ st.set_page_config(
   layout='wide'
 )
 
-# Adding New Font Test
-st.markdown(
-    "p style='font-family:Courier; font-size: 20px;'>This is Nunito text</p>", unsafe_allow_html=True
-)
 
 # Custom CSS (optional - for styling)
 st.markdown('''
@@ -51,7 +47,7 @@ if page == '🏡 Home':
     st.write('''
                 I am a aspiring future genius and entrepreneur currentlty studying at Medgar Evers College.
             
-                🎯 **Current Focus:** Building This Damn Website
+                🎯 **Current Focus:** Major integrations
             
                 📚 **Currently Learning:** Internet and Emergin Technologies (CIS 211)
             
