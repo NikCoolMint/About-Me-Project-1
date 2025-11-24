@@ -21,7 +21,7 @@ st.markdown('''
 page_bg = """
 <style>
 [data-testid="stAppViewContainer"] {
-    background-color: #1a1a1a; /* #f0f0f0 */
+    background-color: #1a1a1a; /* #f0f0f0 */ 999966 */
 }
 </style>
 """
@@ -66,7 +66,7 @@ if page == '🏡 Home':
   with col1:
     st.subheader('Welcome to my digital space!👋')
     st.write('''
-                I am a aspiring future genius and entrepreneur currentlty studying at Medgar Evers College.
+                I am an aspiring future genius and entrepreneur currentlty studying at Medgar Evers College.
             
                 🎯 **Current Focus:** Major integrations
             
