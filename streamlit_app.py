@@ -196,7 +196,7 @@ if page == '📩 Contact':
             
             🐦 **Twitter:** [Your Twitter Handle](https://twitter.com)
         ''')
-        st.markdown("[pen Google](https://github.com/NikCoolMint)")
+
 
 
 
