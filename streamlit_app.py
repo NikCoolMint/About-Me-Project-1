@@ -188,7 +188,7 @@ if page == '📩 Contact':
     with col1:
         st.subheader('Connect with me')
         st.markdown('''
-            📧 **Email:** [demnuts911@gmai.com](mailto:demnuts911@gmail.com)
+            📧 **Email:** [demnuts911@gmail.com](mailto:demnuts911@gmail.com)
             
             🔗 **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com)
             
