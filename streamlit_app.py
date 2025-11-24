@@ -197,12 +197,6 @@ if page == '📩 Contact':
             🐦 **Twitter:** [Your Twitter Handle](https://twitter.com)
         ''')
 
-
-
-
-
-
-
     with col2:
         st.subheader('Send me a message')
         with st.form('contact_form'):
@@ -232,6 +226,6 @@ if page == '📩 Contact':
         # Footer
         st.write('---')
         st.markdown(
-            f'<center>Made with ❤️ by Nik Sil | © {datetime.now().year} Nik Sil </center>', unsafe_allow_html = True
+            f'<center>Made with 👑 by Nik Sil | © {datetime.now().year} Nik Sil </center>', unsafe_allow_html = True
         )
 
