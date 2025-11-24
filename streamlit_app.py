@@ -127,7 +127,7 @@ if page == '🔧 Skills':
     st.title('Life Skills')
 
     # Skills with progress bars
-    st.subheader('Skill's Progression')
+    st.subheader('Skill Progression')
 
     skills_data = {
         'Skate boarding': 85,
