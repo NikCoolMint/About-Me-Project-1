@@ -18,6 +18,15 @@ st.markdown('''
             ''', unsafe_allow_html=True)
 
 # Test For Sidebar Color
+page_bg = """
+<style>
+[data-testid="stAppViewContainer"] {
+    background-color: #1a1a1a; /* your color */
+}
+</style>
+"""
+
+st.markdown(page_bg, unsafe_allow_html=True)
 
 # Sidebar
 st.sidebar.title('📍Navigation')
