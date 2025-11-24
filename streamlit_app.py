@@ -127,7 +127,7 @@ if page == '🔧 Skills':
     st.title('Life Skills')
 
     # Skills with progress bars
-    st.subheader('Skill Progression')
+    st.subheader('My Skill Progression')
 
     skills_data = {
         'Skate boarding': 85,
@@ -166,7 +166,7 @@ if page == '🔧 Skills':
 if page == '📝 Resume':
     st.title('Resume')
     st.write('My professional resume and experience:')
-    st.info('Resume section coming soon! Download or view my full resume here.')
+    st.info('Download or view my full resume here.')
 
  # read PDF from my github 
     with open('my_resume1.pdf', 'rb') as pdf_file:
