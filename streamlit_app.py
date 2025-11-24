@@ -9,13 +9,6 @@ st.set_page_config(
   layout='wide'
 )
 
-page_bg = """
-<style>
-[data-testid="stAppViewContainer"] {
-    background-color: #1a1a1a; /* your color */
-}
-</style>
-
 # Custom CSS (optional - for styling)
 st.markdown('''
                 <style>  
@@ -24,6 +17,7 @@ st.markdown('''
                 </style>
             ''', unsafe_allow_html=True)
 
+# Test For Sidebar Color
 
 # Sidebar
 st.sidebar.title('📍Navigation')
