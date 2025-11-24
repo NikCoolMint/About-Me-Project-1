@@ -74,7 +74,7 @@ if page == '🚶🏾‍♂️ About':
     with st.expander('2023 - 2025: NYC Museum School'):
         st.write('''
             - Graduated with stacking bricks
-            - AP Computer Brick Stacker A (Score: 5)
+            - AP Computer Brick Stacker 
             - Founded Get Rich Quick Club
         ''')
 
@@ -127,7 +127,7 @@ if page == '🔧 Skills':
     st.title('Life Skills')
 
     # Skills with progress bars
-    st.subheader('Skill Progression')
+    st.subheader('Skill's Progression')
 
     skills_data = {
         'Skate boarding': 85,
