@@ -18,7 +18,7 @@ st.markdown('''
             ''', unsafe_allow_html=True)
 
 # Test For Sidebar Color
-page_bg = """
+sidebar = """
 <style>
 [data-testid="stAppViewContainer"] {
     background-color: #1a1a1a; /* your color */
