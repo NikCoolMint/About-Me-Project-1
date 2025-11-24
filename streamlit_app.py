@@ -192,10 +192,16 @@ if page == '📩 Contact':
             
             🔗 **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com)
             
-            💻 **GitHub:** [Your GitHub Profile](https://github.com/NikCoolMint)
+            💻 **GitHub:** ["Your GitHub Profile](https://github.com/NikCoolMint")
             
             🐦 **Twitter:** [Your Twitter Handle](https://twitter.com)
         ''')
+
+
+
+
+
+
 
     with col2:
         st.subheader('Send me a message')
