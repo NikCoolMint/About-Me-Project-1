@@ -192,7 +192,7 @@ if page == '📩 Contact':
             
             🔗 **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com)
             
-            💻 st.markdown**GitHub:** Your GitHub Profil(https://github.com/NikCoolMint)
+            💻 **GitHub:** Your GitHub Profil(https://github.com/NikCoolMint)
             
             🐦 **Twitter:** [Your Twitter Handle](https://twitter.com)
         ''')
