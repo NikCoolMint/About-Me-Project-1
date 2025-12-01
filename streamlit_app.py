@@ -92,7 +92,7 @@ if page == '🚶🏾‍♂️ About':
             - Activities: Ball Team, Track Team, Game Team, Music Team
         ''')
 
-    with st.expander('2023 - 2025: NYC Museum School'):
+    with st.expander('2023 - 2025: NYC Museum School Of The Arts'):
         st.write('''
             - Graduated with stacking bricks
             - AP Computer Brick Stacker 
@@ -121,7 +121,7 @@ if page == '📁 Projects':
         with col2:
             st.subheader('🖥️ Pc-Building')
             st.write('Building a custom PC from scratch')
-            st.caption('**Technologies:** Professional Tools, Electronics')
+            st.caption('**Technologies:** Professional Tools, Electronics, Technical Knowledge')
 
     # Project 2
     with st.container():
@@ -213,7 +213,7 @@ if page == '📩 Contact':
             
             🔗 **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com)
             
-            💻 **GitHub:** Your GitHub Profil(https://github.com/NikCoolMint)
+            💻 **GitHub:** Your GitHub Profile(https://github.com/NikCoolMint)
             
             🐦 **Twitter:** [Your Twitter Handle](https://twitter.com)
         ''')
